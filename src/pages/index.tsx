@@ -7,7 +7,7 @@ export default function Home() {
             <Head>
                 <title>Next</title>
             </Head>
-            <Block>메인페이지</Block>
+            <Block>메인페이지 테스트입니다.</Block>
         </>
     );
 }
