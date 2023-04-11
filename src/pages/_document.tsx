@@ -36,8 +36,16 @@ export default class MyDocument extends Document {
 
     render() {
         return (
-            <Html>
-                <Head />
+            <Html lang="ko">
+                <Head>
+                    <link
+                        rel="preload"
+                        href="/fonts/PretendardVariable.ttf"
+                        as="font"
+                        type="font/ttf"
+                        crossOrigin="anonymous"
+                    />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
